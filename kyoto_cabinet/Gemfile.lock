@@ -1,0 +1,19 @@
+GIT
+  remote: https://github.com/koshigoe/kyotocabinet-ruby
+  revision: fb7360873231baad9c8940775a87cf3ab0a1c0ec
+  branch: gem
+  specs:
+    kyotocabinet-ruby (1.33)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kyotocabinet-ruby!
+
+BUNDLED WITH
+   1.17.2

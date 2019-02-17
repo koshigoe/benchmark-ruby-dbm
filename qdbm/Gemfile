@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem 'dbm'
+
+__END__
+
+$ uname -a
+Linux koshigoe-t480s 4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+$ bundle config --local build.dbm --with-dbm-type=qdbm
+$ sudo apt install libqdbm-dev
+$ bundle install
+$ bundle exec ruby -rbundler/setup -rdbm -e 'puts DBM::VERSION'
+QDBM 1.8.78

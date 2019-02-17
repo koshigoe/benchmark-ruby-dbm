@@ -1,0 +1,2 @@
+---
+BUNDLE_BUILD__DBM: "--with-dbm-type=qdbm"

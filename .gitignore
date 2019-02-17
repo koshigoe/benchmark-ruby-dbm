@@ -1,0 +1,5 @@
+**/vendor/bundle
+db-*
+*.pag
+*.dir
+**/kyotocabinet-ruby-*
