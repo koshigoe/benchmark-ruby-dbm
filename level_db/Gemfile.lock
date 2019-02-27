@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    leveldb-ruby (0.15)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  leveldb-ruby
+
+BUNDLED WITH
+   1.17.2
